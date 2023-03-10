@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-org_id = "REPLACE_ME" # format "000000000000"
+org_id = "463443950324" # "GEKTERNA.COM" # format "000000000000"
 
-billing_account = "REPLACE_ME" # format "000000-000000-000000"
+billing_account = "0117B9-4F65BF-3C78A8" # format "000000-000000-000000"
 
 group_org_admins = "REPLACE_ME"
 
@@ -26,7 +26,7 @@ group_billing_admins = "REPLACE_ME"
 # group_org_admins = "gcp-organization-admins@example.com"
 # group_billing_admins = "gcp-billing-admins@example.com"
 
-default_region = "us-central1"
+default_region = "europe-west3"
 
 // Optional - for an organization with existing projects or for development/validation.
 // Uncomment this variable to place all the example foundation resources under
