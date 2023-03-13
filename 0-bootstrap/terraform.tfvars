@@ -18,9 +18,9 @@ org_id = "463443950324" # "GEKTERNA.COM" # format "000000000000"
 
 billing_account = "0117B9-4F65BF-3C78A8" # format "000000-000000-000000"
 
-group_org_admins = "REPLACE_ME"
+group_org_admins = "group_org_admins@gekterna.com"
 
-group_billing_admins = "REPLACE_ME"
+group_billing_admins = "group_billing_admins@gekterna.com"
 
 # Example of values for the groups
 # group_org_admins = "gcp-organization-admins@example.com"
