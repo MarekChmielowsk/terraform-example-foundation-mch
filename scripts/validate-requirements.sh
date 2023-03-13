@@ -30,9 +30,9 @@ ORGANIZATION_LEVEL_ROLES=("roles/resourcemanager.folderCreator" "roles/resourcem
 BILLING_LEVEL_ROLES=("roles/billing.admin")
 
 # Input variables
-END_USER_CREDENTIAL=""
-ORGANIZATION_ID=""
-BILLING_ACCOUNT=""
+END_USER_CREDENTIAL="marek.chmielowski@devoteam.com"
+ORGANIZATION_ID="463443950324"
+BILLING_ACCOUNT="0117B9-4F65BF-3C78A8"
 
 # Collect the errors
 ERRORS=""
