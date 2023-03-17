@@ -201,6 +201,7 @@ data "terraform_remote_state" "environments_env" {
 /******************************************
  Restricted shared VPC
 *****************************************/
+/*
 module "restricted_shared_vpc" {
   source = "../restricted_shared_vpc"
 
@@ -252,7 +253,7 @@ module "restricted_shared_vpc" {
   allow_all_ingress_ranges = null
   allow_all_egress_ranges  = null
 }
-
+*/
 /******************************************
  Base shared VPC
 *****************************************/
