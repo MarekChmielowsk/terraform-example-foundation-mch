@@ -65,7 +65,7 @@ module "main" {
 /***************************************************************
   Configure Service Networking for Cloud SQL & future services.
  **************************************************************/
-
+/*
 resource "google_compute_global_address" "private_service_access_address" {
   count         = var.private_service_cidr != null ? 1 : 0
   name          = "ga-${local.vpc_name}-vpc-peering-internal"
@@ -77,19 +77,20 @@ resource "google_compute_global_address" "private_service_access_address" {
   network       = module.main.network_self_link
 
 }
-
+ */
+/*
 resource "google_service_networking_connection" "private_vpc_connection" {
   count                   = var.private_service_cidr != null ? 1 : 0
   network                 = module.main.network_self_link
   service                 = "servicenetworking.googleapis.com"
   reserved_peering_ranges = [google_compute_global_address.private_service_access_address[0].name]
 }
-
+*/
 /************************************
   Router to advertise shared VPC
   subnetworks and Google Private API
 ************************************/
-
+/*
 module "region1_router1" {
   source  = "terraform-google-modules/cloud-router/google"
   version = "~> 4.0"
@@ -149,3 +150,4 @@ module "region2_router2" {
     advertised_ip_ranges = [{ range = local.private_googleapis_cidr }]
   }
 }
+*/
