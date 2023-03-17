@@ -17,7 +17,7 @@
 /*********************
  Restricted Outputs
 *********************/
-
+/*
 output "restricted_host_project_id" {
   value       = local.restricted_project_id
   description = "The restricted host project ID"
@@ -62,7 +62,7 @@ output "restricted_service_perimeter_name" {
   value       = module.restricted_shared_vpc.service_perimeter_name
   description = "Access context manager service perimeter name"
 }
-
+*/
 /******************************************
  Private Outputs
 *****************************************/
